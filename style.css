@@ -1,3 +1,27 @@
+
+#today_nav a::after{
+  content: " | "
+}
+#today_nav a:last-child::after{
+  content: ""
+}
+
+#today_nav{
+  margin-left: 50px;
+}
+
+.todaymenu{
+  display: flex;
+  margin-left: 5px;
+}
+
+.today{
+  background-color: #1c1c1c;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+}
+
 .table_bluetracker td{
   color: white;
 }
@@ -155,12 +179,7 @@ color: #fff;
 .line3{
   flex: 1;
 }
-.today{
-  background-color: #1c1c1c;
-  border-radius: 5px;
-  color: white;
-  padding: 10px;
-}
+
 
 .header_thirdline img{
 height:60px;
